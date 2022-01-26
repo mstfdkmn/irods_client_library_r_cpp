@@ -7,7 +7,7 @@ PKG_CPPFLAGS= -I/usr/include/irods \
               -I/usr/include/irods/plugins/api/include \
               -I/usr/include \
               -I./
-PKG_CXXFLAGS+=-std=c++17 -stdlib=libc++ -g -O0 -Wall -DSTRICT_R_HEADERS -DBOOST_SYSTEM_NO_DEPRECATED \
+PKG_CXXFLAGS+=-std=c++17 -g -O0 -Wall -DSTRICT_R_HEADERS -DBOOST_SYSTEM_NO_DEPRECATED \
               -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE \
               -Dlinux_platform -DTAR_STRUCT_FILE -DGNU_TAR
 PKG_LIBS+= -L/usr/lib \
